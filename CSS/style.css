@@ -52,6 +52,12 @@
     color: black;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 .textt{
     margin: 6px;
     padding: 6px;
@@ -65,5 +71,5 @@
 }
 
 body{
-       background-color: bisque;
+       background-color: #0071c2;
 }
