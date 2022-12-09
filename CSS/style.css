@@ -15,14 +15,21 @@
     border-color: black;
     padding-bottom: 40px ;
     border-style: solid;
-    width: 430px;
-    margin-left: 350px;
+    width: 464px;
+    height: 30px;
+    margin-left: 365px;
     margin-bottom: 30px;
     margin-top: 100px;
-    background-color: cadetblue;
+    background-color: bisque;
+    
+
+    
    
 }
 
+.background .heading h1{
+    margin-left: 56px;
+}
 
 
 
@@ -34,10 +41,11 @@
     border: 2px;
     border-color: black;
     border-style: solid;
-    width: 430px;
-    margin-left: 350px;
+    width: 353px;
+    height: 181px;
+    margin-left: 406px;
     padding-left: 60px;
-    background-color: rgb(202, 216, 240);
+
 }
 
 
@@ -46,6 +54,11 @@
     padding: 6px;
     border: 1px;
     border-style: solid;
+    height: 120px;
+    width: 140px;
+    text-align: center;
+    font-size: 30px;
+    
     
     background-color: rgb(178, 169, 192);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -67,9 +80,15 @@
     background-color: rgb(64, 155, 173);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
+    height: 120px;
+    width: 140px;
+    text-align: center;
+    font-size: 30px;
     
 }
 
 body{
-       background-color: #0071c2;
+       background-image: url(/wallpapers/5.jpg);
+       background-size: cover;
+      
 }

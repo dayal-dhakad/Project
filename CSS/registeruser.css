@@ -10,7 +10,24 @@ body{
     background-color: #fafafa;
 }
 
+.heading{
+    text-align: center;
+    height: 92px;
+    width: 400px;
+    margin: auto;
+    margin-bottom: -15px;
+    font-size: 25px;
+    border-style: solid;
+    border-right-width: 0.3px ;
+    border-left-width: 0.3px ;
+    border-top-width: 0.3px ;
+     border-bottom-width: 0.3px ;
+     border-color: rgb(203, 197, 197) ;
+     border-radius: 1px;
+     align-items: center;
 
+
+}
 .photo{
     height: 62px;
     width: 191px;
