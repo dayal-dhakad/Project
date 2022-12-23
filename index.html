@@ -1,37 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rooms-on-Rent</title>
-    <link rel="stylesheet" href="CSS/style.css">
-</head>
-
-<body>
-    <main class="background">
-        <div class="heading">
-            <header>
-                <h1>    Find a Home</h1>
-                <h4>Search low prices on Rooms-Flats-PG-Hostels</h4>
-            </header>
-        </div>
-        <div>
-            <section class="selection">
-
-                <a class="textt" href="HTML/userlogin.html">USER LOGIN</a>
-                <br>
-                <a class="text" href="HTML/ownerlogin.html">OWNER LOGIN</a>
-
-            </section>
-
-        </div>
+#include <iostream>
+#include <climits>
+#include <algorithm>
+using namespace std;
+ 
+int main()
+{
+    int arr[] = { 4, 2, 1, 6, -8, 5 };
+ 
+    int min = INT_MAX, max = INT_MIN;
+    for (int i: arr)
+    {
+        if (i < min) {
+            min = i;
+        }
+ 
+        if (i > max) {
+            max = i;
+        }
+    }
+ 
+    std::cout << "The min element is " << min << std::endl;
+    std::cout << "The max element is " << max << std::endl;
+ 
+    return 0;
+}
 
 
-
-    </main>
-
-</body>
-
-</html>
